@@ -1,0 +1,77 @@
+-- raw DB
+SELECT * FROM db_dusa_andreea_daniela_345 LIMIT 10;
+
+-- add a new column
+ALTER TABLE db_dusa_andreea_daniela_345 ADD COLUMN id_user SERIAL;
+
+-- update the new column with unique values
+UPDATE db_dusa_andreea_daniela_345 
+SET id_user=DEFAULT;
+
+--create Users table
+CREATE TABLE users AS
+SELECT id_user, first_name, last_name
+FROM db_dusa_andreea_daniela_345;
+
+-- set the new column as a primary key
+ALTER TABLE Users 
+ADD PRIMARY KEY(id_user);
+
+-- change the data type and size of the first_name and last_name
+ALTER TABLE Users 
+ALTER COLUMN first_name TYPE VARCHAR(35),
+alter COLUMN last_name TYPE VARCHAR(35); 
+
+-- display 1st staging table 
+select * FROM Users LIMIT 10;
+
+-- create personal_info table
+CREATE TABLE Personal_info(
+  personal_number SERIAL PRIMARY KEY,
+  first_name TYPE VARCHAR(30),
+  last_name TYPE VARCHAR(30),
+  phone_number VARCHAR(15),
+  birthdate VARCHAR(15),
+  address VARCHAR(100),
+  id_user INT,
+  FOREIGN KEY(id_user) REFERENCES Users(id_user));
+
+ -- insert data from raw DB to personal_info table
+INSERT INTO personal_info(phone_number, birthdate, address,first_name,last_name,id_user)
+SELECT phone_number, birthdate, address,first_name,last_name, id_user
+FROM db_dusa_andreea_daniela_345 ;
+
+-- display 2nd staging table
+SELECT * FROM personal_info LIMIT 15;
+
+-- create economic_info table
+CREATE TABLE economic_info(
+  id_bank_account SERIAL PRIMARY KEY,
+  iban VARCHAR(25),
+  currency VARCHAR(15),
+  id_user INT,
+  FOREIGN KEY(id_user) REFERENCES Users(id_user));
+  
+-- insert data from raw db to economic_info table
+INSERT INTO economic_info(iban, currency, id_user, balance)
+SELECT iban, currency, user_id, balance
+FROM db_dusa_andreea_daniela_345;
+
+-- display 3rd staging table
+SELECT * FROM economic_info LIMIT 15;
+
+-- create computer_info table
+CREATE TABLE computer_info(
+  id_computer SERIAL PRIMARY KEY,
+  mac_address VARCHAR(35),
+  ip_address VARCHAR(35),
+  id_user INT, 
+  FOREIGN KEY(id_user) REFERENCES users(id_user));
+  
+--insert data from raw db to computer_info table
+INSERT into computer_info(mac_address, ip_address, id_user)
+SELECT mac_address, ip_address, id_user
+FROM db_dusa_andreea_daniela_345;
+
+--display 4th staging table
+SELECT * FROM computer_info LIMIT 15;
