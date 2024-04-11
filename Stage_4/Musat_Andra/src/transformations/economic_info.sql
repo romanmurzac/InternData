@@ -1,0 +1,1 @@
+SELECT iban, currency FROM data;

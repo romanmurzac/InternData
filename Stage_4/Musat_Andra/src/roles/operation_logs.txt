@@ -1,0 +1,5 @@
+2024-04-10 03:25:14 - 3 (engineer): Failed login attempt
+2024-04-10 03:25:44 - engineer (engineer): Login
+2024-04-10 03:25:49 - Mihnea (engineer): Selected option 2 in Engineer menu
+2024-04-10 03:26:11 - analyst (analyst): Login
+2024-04-10 03:26:16 - Ana (analyst): Selected option 1 in Analyst menu
