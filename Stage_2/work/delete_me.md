@@ -1,0 +1,1 @@
+## Put all work related to the Stage 2 under this `work` directory and delete the `delete_me.md` file.
