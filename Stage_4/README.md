@@ -10,7 +10,8 @@ The user learns about Database Administration and starts to apply gained knowled
 **4.1. Basics of Database Administration (DBA).**\
 4.1.1. Role and responsibilities of a DBA.\
 4.1.2. Ensuring data integrity, security, and performance.\
-4.1.3. Understanding the DBA life cycle.\
+4.1.3. Understanding the DBA life cycle.
+
 **4.2. Database Systems.**\
 4.2.1. In-depth exploration of popular databases (e.g. MySQL, PostgreSQL, SQL Server).\
 4.2.2. Hands-on exercises covering basic administration tasks.\
@@ -26,9 +27,11 @@ The user learns about Database Administration and starts to apply gained knowled
 The user learns about all topics from Theoretical section based on resources provided on Resources section.
 
 ### Practical activities
-1.1. The user will prepare recommendations for SME DB administration. The document should be loaded in PDF format.\
-1.2. The user will use pgAdmin 4 or [online SQL server](https://sqliteonline.com/) to define different user groups on SME DB. The code will be saved in SQL files\
-Create PR to submit to the remote repository current stage changes.
+4.1. The user will prepare recommendations for SME DB administration. The document should be loaded in PDF format.
+
+4.2. The user will use pgAdmin 4 or [online SQL server](https://sqliteonline.com/) to define different user groups on SME DB. The code will be saved in SQL files.
+
+4.3. Create PR to submit to the remote repository current stage changes.
 
 ## Resources
 [What is a database administrator (DBA)? by Oracle India ](https://www.oracle.com/in/database/what-is-a-dba/)\

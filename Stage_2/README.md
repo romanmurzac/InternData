@@ -10,11 +10,13 @@ The user learns about Normalization and starts to apply gained knowledge on the 
 **2.1. Exploration of Data Warehousing Architecture.**\
 2.1.1. Detailed examination of the various components and their interrelationships.\
 2.1.2. Case studies of companies implementing different architectural approaches.\
-2.1.3. Discussion on scalability, performance, and maintenance considerations.\
+2.1.3. Discussion on scalability, performance, and maintenance considerations.
+
 **2.2. Introduction to Normalization.**\
 2.2.1. Explanation of normalization and its objectives.\
 2.2.2. Understanding of redundant data and anomalies.\
-2.2.3. Examples of non-normalized and normalized data.\
+2.2.3. Examples of non-normalized and normalized data.
+
 **2.3. Detailed explanation and application of each normal form.**\
 2.3.1. Practical exercises to normalize sample datasets.\
 2.3.2. Discussion on trade-offs and considerations in normalization.
@@ -29,9 +31,11 @@ The user learns about Normalization and starts to apply gained knowledge on the 
 The user learns about all topics from Theoretical section based on resources provided on Resources section.
 
 ### Practical activities
-2.1. Based on project scenario and generated DB for SME the user will generate the DB architecture diagram using [Draw tool](https://app.diagrams.net/). The document should be loaded in PDF format.\
-2.2. Starting from initial DB and generated architecture diagram the user will normalize data using 1NF, 2NF, and 3NF normalization using [online SQL server](https://sqliteonline.com/#google_vignette). After normalization user will save normalized tables.\
-Create PR to submit to the remote repository current stage changes.
+2.1. Based on project scenario and generated DB for SME the user will generate the DB architecture diagram using [Draw tool](https://app.diagrams.net/). The document should be loaded in PDF format.
+
+2.2. Starting from initial DB and generated architecture diagram the user will normalize data using 1NF, 2NF, and 3NF normalization using [online SQL server](https://sqliteonline.com/#google_vignette). After normalization user will save normalized tables.
+
+2.3. Create PR to submit to the remote repository current stage changes.
 
 ## Resources
 [Data Warehouse Architecture Layers, Principles & Practices to Know on StreamSets](https://streamsets.com/blog/data-warehouse-architecture-explained/)\

@@ -1,0 +1,1 @@
+SELECT ip_address, mac_address FROM data;

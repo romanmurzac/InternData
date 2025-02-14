@@ -1,0 +1,1 @@
+SELECT personal_number, birthdate, address, phone_number FROM data;

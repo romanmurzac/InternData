@@ -10,7 +10,8 @@ The user learns about Data Warehousing and starts to apply gained knowledge on t
 **1.1. Overview of Data Warehousing.**\
 1.1.1. Definition and purpose.\
 1.1.2. Historical evolution.\
-1.1.3. Key players in the industry (Oracle, Microsoft, Teradata, etc.).\
+1.1.3. Key players in the industry (Oracle, Microsoft, Teradata, etc.).
+
 **1.2. Key Components and Architecture.**\
 1.2.1. Data Warehouse vs. Data Mart.\
 1.2.2. OLAP (Online Analytical Processing) vs. OLTP (Online Transaction Processing).\
@@ -27,10 +28,13 @@ The user learns about Data Warehousing and starts to apply gained knowledge on t
 The user learns about all topics from Theoretical section based on resources provided on Resources section.
 
 ### Practical activities
-1.1. The user choose six Data Warehouse that exists at the moment of task completion and create an analysis on Strengths, Weakneses, Opportunities and Threads. This is the report that the user will present to the SME client. The document should be loaded in PDF format.\
-1.2. The user analize Data Warehouse and Data Lake and provide recommendation for his SME client about this two options. Same procedure is applied for OLAP and OLTP, the user make analysis recomendation for his SME client. The document should be loaded in PDF format.\
-1.3. Based on SME client profile, the user generate synthetic data to be used. For synthetic data generation will be used [Synthetic Data Generator](https://faker-deploy-x5menaheyq-lm.a.run.app/home). The user download generated DB and also upload it in cloud with a specific name that contains unique identifier. All future Stages will be performed on this initial DB. User rename local version of the DB in format: db_inda_<lastname_firstname>_raw.csv.\
-Create PR to submit to the remote repository current stage changes.
+1.1. The user choose six Data Warehouse that exists at the moment of task completion and create an analysis on Strengths, Weakneses, Opportunities and Threads. This is the report that the user will present to the SME client. The document should be loaded in PDF format.
+
+1.2. The user analize Data Warehouse and Data Lake and provide recommendation for his SME client about this two options. Same procedure is applied for OLAP and OLTP, the user make analysis recomendation for his SME client. The document should be loaded in PDF format.
+
+1.3. Based on SME client profile, the user generate synthetic data to be used. For synthetic data generation will be used [Synthetic Data Generator](https://faker-deploy-x5menaheyq-lm.a.run.app/home). The user download generated DB and also upload it in cloud with a specific name that contains unique identifier. All future Stages will be performed on this initial DB. User rename local version of the DB in format: db_inda_<lastname_firstname>_raw.csv.
+
+1.4. Create PR to submit to the remote repository current stage changes.
 
 ## Resources
 [What is a Data Warehouse? by IBM](https://www.ibm.com/topics/data-warehouse)\
