@@ -12,11 +12,11 @@ The InternData repository contains:
     * `README.md` -> contains instructions about this repository.
 
 * Folders:
-    * `Stage_1` -> follow theoretical and practical instructions to gain knowledge in the area of [Introduction to Data Warehousing](Stage_1/README.md).
-    * `Stage_2` -> follow theoretical and practical instructions to gain knowledge in the area of [Architecture of Data Warehousing and Normalization](Stage_2/README.md).
-    * `Stage_3` -> follow theoretical and practical instructions to gain knowledge in the area of [Models of Data Processing - ETL/ELT](Stage_3/README.md).
-    * `Stage_4` -> follow theoretical and practical instructions to gain knowledge in the area of [Database Administration](Stage_4/README.md).
-    * `Stage_5` -> follow theoretical and practical instructions to gain knowledge in the area of [Data Governance](Stage_5/README.md).
+    * `Stage_1` -> follow theoretical and practical instructions to gain knowledge in the area of [Introduction to Data Warehousing](Stage_1).
+    * `Stage_2` -> follow theoretical and practical instructions to gain knowledge in the area of [Architecture of Data Warehousing and Normalization](Stage_2).
+    * `Stage_3` -> follow theoretical and practical instructions to gain knowledge in the area of [Models of Data Processing - ETL/ELT](Stage_3).
+    * `Stage_4` -> follow theoretical and practical instructions to gain knowledge in the area of [Database Administration](Stage_4).
+    * `Stage_5` -> follow theoretical and practical instructions to gain knowledge in the area of [Data Governance](Stage_5).
 
 ## Learn
 1. Login in to GitHub.\
