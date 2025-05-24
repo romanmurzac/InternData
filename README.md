@@ -26,7 +26,7 @@ In the `README.md` on each day the structure contains:
 Break down on specific section and short description for each day activities.
 
 ### 1. Introduction
-**[Week 01 - Day 01](./day_01_01/)** --- **Company Office** --- Participants will simulate their first day at InternIT: meet their mentor, get introduced to the team, explore the company’s mission, and understand the role of a Data Engineer in a fintech startup. They'll also review the internship roadmap and set up communication tools.\
+**[Week 01 - Day 01](./day_01_01/)** --- **Company Office** --- Participants will simulate their first day at the company: meet their mentor, get introduced to the team, explore the company’s mission, and understand the role of a Data Engineer in a fintech startup. They'll also review the internship roadmap and set up communication tools.\
 **[Week 01 - Day 02](./day_01_02/)** --- **Project Setup** --- Participants will discuss project scenario and will install essential tools (Git, Python, PostgreSQL, pgAdmin, VS Code), create a GitHub repository and Cloud account, and set up a virtual environment. They'll also install dependencies and test their local setup.\
 **[Week 01 - Day 03](./day_01_03/)** --- **Trends and Carriers in Data** --- Participants will explore current trends in data engineering, such as real-time analytics, data mesh, and cloud-native tools. They'll also research career paths, required skills, and reflect on their own learning goals.
 
