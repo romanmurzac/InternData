@@ -9,6 +9,17 @@
 * ⏱️ 60 min | What is Data Engineering?
 * ⏱️ 60 min | The 5 V’s of Big Data
 
+## Goals
+By the end of the day, participants should:
+* Understand the company’s mission, vision, and organizational structure.
+* Learn about the company's key products, services, and the role of the Data team.
+* Get an overview of the internship structure, weekly themes, and learning path.
+* Understand the tools, technologies, and communication channels used during the internship.
+* Understand what Data Engineering is and why it's important.
+* Learn about the core responsibilities of a Data Engineer.
+* Gain foundational knowledge of Big Data characteristics.
+* Understand the 5 V’s of Big Data.
+
 ## Resources
 Thoretical on-line resources to be used for [Theory](#theory) section.
 
@@ -75,3 +86,13 @@ Practical topics to be covered.
 
 ### Introduction to Big Data and Data Engineering
 ***No practical tasks.***
+
+## Individual work
+Tasks for participant's own project.
+
+***No individual tasks.***
+
+## Implementation
+Example of the implementation for the practical part.
+
+***No implementation example.***

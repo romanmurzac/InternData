@@ -18,9 +18,12 @@ Each day of the internship is organized into a dedicated folder (e.g., *day_01_0
 In the `README.md` on each day the structure contains:
 * **Title** - The overall name or theme of the session or document.
 * **Day Schedule** - A time-based breakdown of the day's events.
+* **Goals** - A list of theorethical and practical knowledge that participants should have at the end of the day.
 * **Resources** - A curated list of supporting materials, typically external links or documents.
 * **Theory** - An outline of the key conceptual and educational content to be covered.
 * **Practice** - Any hands-on activities, exercises, or demos tied to the theoretical topics.
+* **Individual work** - Activities that participants should learn and work on their own.
+* **Implementation** - Example of the implementation for the practical part. Example to follow as a guideline and as a reference for the expected output from the participants.
 
 ## Content
 Break down on specific section and short description for each day activities.
